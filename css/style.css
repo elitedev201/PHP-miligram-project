@@ -1,0 +1,158 @@
+.button-black {
+  background-color: black;
+  border-color: black;
+}
+.button-black.button-clear,
+.button-black.button-outline {
+  background-color: transparent;
+  color: black;
+}
+.button-black.button-clear {
+  border-color: transparent;
+}
+
+.button-small {
+  font-size: 0.8rem;
+  height: 2.8rem;
+  line-height: 2.8rem;
+  padding: 0 1.5rem;
+}
+
+.button-large {
+  font-size: 1.4rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  padding: 0 2rem;
+}
+
+#sign_btn:hover {
+  cursor: pointer;
+}
+
+.panel-body {
+  padding: 15px;
+  padding-top: 5%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 85px;
+  font-weight: bold;
+  margin: 25px;
+  color: #585858;
+}
+
+.subtitle {
+  font-size: 25px;
+}
+
+.space {
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.row img {
+  width: 300px;
+  height: 249px;
+}
+
+.row div {
+  width: 500px;
+  text-align: left;
+  margin-left: 50px !important;
+}
+
+.description {
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 2;
+}
+
+.button-block {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.privacy {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}
+
+.privacy-font {
+  color: #383838;
+  font-size: 20px;
+}
+
+.mask {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  transition: ease-in 0.5s;
+  padding: 100px 30px;
+}
+
+.modal-login {
+  position: relative;
+  display: none;
+  width: 400px;
+  height: 520px;
+  border-radius: 10px;
+  background-color: white;
+  transition: ease-in 0.5s;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-signup {
+  position: relative;
+  display: none;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: white;
+  transition: ease-in 0.5s;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.close-button :hover {
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.modal-body {
+  padding: 0px 30px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.reg-title {
+  padding: 5px 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.width-100-pro {
+  width: 100%;
+}

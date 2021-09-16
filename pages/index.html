@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="CJ Patoilo" />
+    <meta
+      name="description"
+      content="Milligram provides a minimal setup of styles for a fast and clean starting point. Specially designed for better performance and higher productivity with fewer properties to reset resulting in cleaner code."
+    />
+    <title>Milligram | A minimalist CSS framework.</title>
+    <link rel="icon" href="https://milligram.io/images/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section style="height: 100%">
+        <div class="panel-body clearfix">
+          <h1 class="title" data-nsfw-filter-status="swf">
+            Manhattan Foodies
+            <span class="subtitle" data-nsfw-filter-status="swf">
+              <br />Beta test version
+            </span>
+          </h1>
+
+          <div class="space"></div>
+          <div class="row" style="justify-content: center; align-items: center">
+            <img src="../img/tpbg.jpg" data-nsfw-filter-status="sfw" />
+            <div>
+              <p
+                class="description"
+                align="justify"
+                data-nsfw-filter-status="swf"
+              >
+                Manhattan's best food review sharing app is ready for use! You
+                can keep a restaurant diary and share your review list with
+                facebook friends.
+              </p>
+
+              <p class="button-block" data-nsfw-filter-status="swf">
+                <a id="login" class="button" data-nsfw-filter-status="swf"
+                  >Log in
+                </a>
+                <a class="button" data-nsfw-filter-status="swf"
+                  >Log in with Facebook
+                </a>
+                <a
+                  id="register"
+                  class="button button-outline"
+                  data-nsfw-filter-status="swf"
+                  >Register
+                </a>
+              </p>
+            </div>
+          </div>
+          <div style="padding: 8%"></div>
+          <div class="privacy">
+            <a href="" data-nsfw-filter-status="swf">
+              <span class="privacy-font" data-nsfw-filter-status="swf"
+                >Privacy Policy</span
+              >
+            </a>
+
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+
+            <a
+              href="http://mf.safety-motocle.com/user-support/support"
+              data-nsfw-filter-status="swf"
+            >
+              <span class="privacy-font" data-nsfw-filter-status="swf"
+                >Support</span
+              >
+            </a>
+
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+
+            <a
+              href="http://mf.safety-motocle.com/user-support/terms"
+              data-nsfw-filter-status="swf"
+            >
+              <span class="privacy-font" data-nsfw-filter-status="swf"
+                >Terms</span
+              >
+            </a>
+
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+
+            <a
+              href="http://mf.safety-motocle.com/guest_user/dashboard/public_lists/0"
+              data-nsfw-filter-status="swf"
+            >
+              <span class="privacy-font" data-nsfw-filter-status="swf"
+                >Guest user login</span
+              >
+            </a>
+          </div>
+        </div>
+      </section>
+      <div class="mask">
+        <div class="modal-login">
+          <div class="modal-header">
+            <h3 class="font-bold">Log in</h3>
+            <h6>Let's login your account</h6>
+            <p class="close-button"><span>x</span></p>
+          </div>
+          <div class="modal-body">
+            <form>
+              <fieldset>
+                <label for="Email">Email</label>
+                <input type="text" placeholder="Email" id="Email" />
+                <label for="Password">Password</label>
+                <input type="password" placeholder="Password" id="Password" />
+                <div class="float-right">
+                  <a style="font-size: 12px"><u>Forgot your password?</u></a>
+                </div>
+                <input class="button-primary" type="submit" value="Login" />
+                <div class="reg-title">
+                  Don't have an account?
+                  <p id="sign_btn"><b>Creat your account</b></p>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <div class="modal-signup">
+          <div class="modal-header">
+            <h3 class="font-bold">Register</h3>
+            <h6>Sign up your account</h6>
+            <p class="close-button"><span>x</span></p>
+          </div>
+          <div class="modal-body">
+            <form>
+              <fieldset>
+                <label for="Name">Name</label>
+                <input type="text" placeholder="Enter your name" id="name" />
+                <label for="Email">Email</label>
+                <input type="text" placeholder="Enter your email" id="email" />
+                <label for="Password">Password</label>
+                <input
+                  type="password"
+                  placeholder="Enter your password"
+                  id="password"
+                />
+                <label for="Password">Confirm Password</label>
+                <input
+                  type="password"
+                  placeholder="Confirm your password"
+                  id="Password"
+                />
+                <div class="width-100-pro">
+                  <input
+                    class="button width-100-pro"
+                    type="submit"
+                    value="Register"
+                  />
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="../js/main.js"></script>
+</html>
