@@ -179,16 +179,20 @@
 
 @media only screen and (max-width: 383px) {
   .modal-login {
-    width: 200px;
+    width: 100%;
     height: 700px;
   }
 
   .modal-signup {
-    width: 200px;
+    width: 100%;
   }
 
   .display-flex {
     flex-wrap: wrap;
+  }
+
+  .mask {
+    padding: 60px 0px;
   }
 
   .title {
