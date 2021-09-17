@@ -159,7 +159,7 @@
   }
 }
 
-@media only screen and (max-width: 445px) {
+@media only screen and (max-width: 481px) {
   .modal-login {
     width: 300px;
   }
@@ -171,9 +171,13 @@
   .display-flex {
     flex-wrap: wrap;
   }
+
+  .title {
+    font-size: 50px;
+  }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 383px) {
   .modal-login {
     width: 200px;
     height: 650px;
@@ -185,6 +189,10 @@
 
   .display-flex {
     flex-wrap: wrap;
+  }
+
+  .title {
+    font-size: 40px;
   }
 }
 
