@@ -28,5 +28,5 @@ $(document).ready(function () {
     }
   })
 
-  $(".mask").click(function () {})
+  //   $(".mask").click(function () {})
 })

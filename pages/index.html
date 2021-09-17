@@ -25,94 +25,13 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <section style="height: 100%">
-        <div class="panel-body clearfix">
-          <h1 class="title" data-nsfw-filter-status="swf">
-            Manhattan Foodies
-            <span class="subtitle" data-nsfw-filter-status="swf">
-              <br />Beta test version
-            </span>
-          </h1>
-
-          <div class="space"></div>
-          <div class="row" style="justify-content: center; align-items: center">
-            <img src="../img/tpbg.jpg" data-nsfw-filter-status="sfw" />
-            <div>
-              <p
-                class="description"
-                align="justify"
-                data-nsfw-filter-status="swf"
-              >
-                Manhattan's best food review sharing app is ready for use! You
-                can keep a restaurant diary and share your review list with
-                facebook friends.
-              </p>
-
-              <p class="button-block" data-nsfw-filter-status="swf">
-                <a id="login" class="button" data-nsfw-filter-status="swf"
-                  >Log in
-                </a>
-                <a class="button" data-nsfw-filter-status="swf"
-                  >Log in with Facebook
-                </a>
-                <a
-                  id="register"
-                  class="button button-outline"
-                  data-nsfw-filter-status="swf"
-                  >Register
-                </a>
-              </p>
-            </div>
-          </div>
-          <div style="padding: 8%"></div>
-          <div class="privacy">
-            <a href="" data-nsfw-filter-status="swf">
-              <span class="privacy-font" data-nsfw-filter-status="swf"
-                >Privacy Policy</span
-              >
-            </a>
-
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-
-            <a
-              href="http://mf.safety-motocle.com/user-support/support"
-              data-nsfw-filter-status="swf"
-            >
-              <span class="privacy-font" data-nsfw-filter-status="swf"
-                >Support</span
-              >
-            </a>
-
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-
-            <a
-              href="http://mf.safety-motocle.com/user-support/terms"
-              data-nsfw-filter-status="swf"
-            >
-              <span class="privacy-font" data-nsfw-filter-status="swf"
-                >Terms</span
-              >
-            </a>
-
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-
-            <a
-              href="http://mf.safety-motocle.com/guest_user/dashboard/public_lists/0"
-              data-nsfw-filter-status="swf"
-            >
-              <span class="privacy-font" data-nsfw-filter-status="swf"
-                >Guest user login</span
-              >
-            </a>
-          </div>
-        </div>
-      </section>
+    <div class="bg-section">
       <div class="mask">
+        <!-- Begin Login modal -->
         <div class="modal-login">
           <div class="modal-header">
-            <h3 class="font-bold">Log in</h3>
-            <h6>Let's login your account</h6>
+            <img src="../img/tpbg.jpg" style="width: 100px; height: 80px" />
+            <h3 class="font-bold">Login to your account</h3>
             <p class="close-button"><span>x</span></p>
           </div>
           <div class="modal-body">
@@ -125,15 +44,59 @@
                 <div class="float-right">
                   <a style="font-size: 12px"><u>Forgot your password?</u></a>
                 </div>
-                <input class="button-primary" type="submit" value="Login" />
+                <div class="width-100-pro padding-top-10">
+                  <input
+                    class="button width-100-pro"
+                    type="submit"
+                    value="Login"
+                  />
+                </div>
+                <p class="padding-top-10 text-center">
+                  <b>Or login with</b>
+                </p>
+                <div class="display-flex padding-top-10">
+                  <div class="column padding-rl width-100-pro">
+                    <a
+                      class="
+                        button button-outline
+                        width-100-pro
+                        display-flex
+                        align
+                      "
+                      ><img
+                        src="https://img.icons8.com/color/20/000000/google-logo.png"
+                        style="height: 20px"
+                      />
+                      <span class="padding-rl">Google</span>
+                    </a>
+                  </div>
+                  <div class="column padding-rl width-100-pro">
+                    <a
+                      class="
+                        button button-outline
+                        width-100-pro
+                        display-flex
+                        align
+                      "
+                      ><img
+                        src="https://img.icons8.com/color/20/000000/facebook.png"
+                        style="height: 20px"
+                      />
+                      <span class="padding-rl">Facebook</span>
+                    </a>
+                  </div>
+                </div>
                 <div class="reg-title">
                   Don't have an account?
-                  <p id="sign_btn"><b>Creat your account</b></p>
+                  <span id="sign_btn"><b>Creat your account</b></span>
                 </div>
               </fieldset>
             </form>
           </div>
         </div>
+        <!-- End Login modal -->
+
+        <!-- Begin Register modal -->
         <div class="modal-signup">
           <div class="modal-header">
             <h3 class="font-bold">Register</h3>
@@ -159,7 +122,7 @@
                   placeholder="Confirm your password"
                   id="Password"
                 />
-                <div class="width-100-pro">
+                <div class="width-100-pro padding-top-10">
                   <input
                     class="button width-100-pro"
                     type="submit"
@@ -169,6 +132,67 @@
               </fieldset>
             </form>
           </div>
+        </div>
+        <!-- End Register modal -->
+      </div>
+      <div class="container">
+        <div class="panel-body clearfix">
+          <p class="foodies-logo"></p>
+          <p class="title">Manhattan Foodies</p>
+          <div data-nsfw-filter-status="swf">
+            <a
+              id="login"
+              class="button button-large"
+              data-nsfw-filter-status="swf"
+              >Log in
+            </a>
+            <a
+              id="register"
+              class="button button-outline button-large"
+              data-nsfw-filter-status="swf"
+              >Register
+            </a>
+          </div>
+        </div>
+        <div class="privacy">
+          <a href="" data-nsfw-filter-status="swf">
+            <span class="privacy-font" data-nsfw-filter-status="swf"
+              >Privacy Policy</span
+            >
+          </a>
+
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+
+          <a
+            href="http://mf.safety-motocle.com/user-support/support"
+            data-nsfw-filter-status="swf"
+          >
+            <span class="privacy-font" data-nsfw-filter-status="swf"
+              >Support</span
+            >
+          </a>
+
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+
+          <a
+            href="http://mf.safety-motocle.com/user-support/terms"
+            data-nsfw-filter-status="swf"
+          >
+            <span class="privacy-font" data-nsfw-filter-status="swf"
+              >Terms</span
+            >
+          </a>
+
+          &nbsp;&nbsp;|&nbsp;&nbsp;
+
+          <a
+            href="http://mf.safety-motocle.com/guest_user/dashboard/public_lists/0"
+            data-nsfw-filter-status="swf"
+          >
+            <span class="privacy-font" data-nsfw-filter-status="swf"
+              >Guest user login</span
+            >
+          </a>
         </div>
       </div>
     </div>
