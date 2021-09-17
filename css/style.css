@@ -121,7 +121,7 @@
   position: relative;
   display: none;
   width: 500px;
-  height: 600px;
+  height: 620px;
   border-radius: 10px;
   background-color: white;
   transition: ease-in 0.5s;
@@ -134,7 +134,7 @@
   position: relative;
   display: none;
   width: 500px;
-  height: 600px;
+  height: 620px;
   border-radius: 10px;
   background-color: white;
   transition: ease-in 0.5s;
@@ -146,12 +146,11 @@
 @media only screen and (max-width: 576px) {
   .modal-login {
     width: 400px;
-    height: 620px;
+    height: 640px;
   }
 
   .modal-signup {
     width: 400px;
-    height: 620px;
   }
 
   .display-flex {
@@ -162,6 +161,7 @@
 @media only screen and (max-width: 481px) {
   .modal-login {
     width: 300px;
+    height: 660px;
   }
 
   .modal-signup {
@@ -180,7 +180,7 @@
 @media only screen and (max-width: 383px) {
   .modal-login {
     width: 200px;
-    height: 650px;
+    height: 700px;
   }
 
   .modal-signup {
